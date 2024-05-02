@@ -1,0 +1,147 @@
+body{
+    height: 100vh;
+    background: linear-gradient(#5499FF, #0a2f68);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    margin-top: 30px;
+    width: 600px;
+    background: white;
+    padding-bottom: 30px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:9px;
+    width:100%;
+    margin-top:30px;
+}
+
+.underline{
+    width: 61px;
+    height:5px;
+    background-color: #5499FF;
+}
+
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: rgb(184, 183, 183);
+    border-radius: 6px;
+}
+
+.input img{
+    margin: 0px 30px;
+}
+
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border:none;
+    outline:none;
+    color:rgb(184, 183, 183);
+    font-size: 19px;
+    color: rgb(71, 70, 70);
+}
+
+.forgot-password{
+    padding-left: 62px;
+    margin-top:27px;
+    color:rgb(184, 183, 183);
+    font-size: 18px;
+}
+
+forgot-password span{
+    color: #5499FF;
+    cursor: pointer;
+}
+
+.submit-container{
+    display: flex;
+    gap:30px;
+    margin: 60px auto;
+
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: rgb(71, 70, 70);
+    background-color:#5499FF;
+    border-radius: 20px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray{
+    background: rgb(184, 183, 183);
+}
+
+
+
+.classic-navbar {
+    background-color: #5499FF; /* Change background color as needed */
+   
+  }
+  
+  .classic-navbar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .classic-navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333; /* Change text color as needed */
+    text-decoration: none;
+  }
+  
+  .navbar-links ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links ul li {
+    margin-right: 20px;
+  }
+  
+  .navbar-links ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar-links ul li a {
+    color: #333; /* Change link color as needed */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links ul li a:hover {
+    color: #007bff; /* Change link color on hover as needed */
+  }
+
+  .editor{
+    background-color: aliceblue;
+  }
+
